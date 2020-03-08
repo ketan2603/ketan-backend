@@ -3440,3 +3440,54 @@
 | INFO | 08 Mar 18:41:01.78 : sql.js : 44 - [db] returned 8 rows | SELECT * FROM city 
 | INFO | 08 Mar 18:41:03.69 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM family_table WHERE city_id = 1 
 | INFO | 08 Mar 18:41:05.25 : sql.js : 44 - [db] returned 2 rows | SELECT * FROM persons WHERE family_id = 1 
+| INFO | 08 Mar 18:42:46.76 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 7 
+| INFO | 08 Mar 18:42:48.18 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM family_table WHERE city_id = 1 
+| INFO | 08 Mar 18:42:58.52 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 2 
+| INFO | 08 Mar 18:43:00.83 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM family_table WHERE city_id = 1 
+| INFO | 08 Mar 19:03:32.48 : logger.service.js : 31 - [logger] log path: /home/krishna/krishna/smp/logs/smp.log 
+| INFO | 08 Mar 19:03:32.48 : sql.js : 25 - [sql] connecting to: smp@192.168.43.128:5432 
+| INFO | 08 Mar 19:03:32.48 : sql.js : 32 - [sql] connecting to: smp@192.168.43.128:5432 
+| INFO | 08 Mar 19:03:43.79 : sql.js : 44 - [db] returned 8 rows | SELECT * FROM city 
+| INFO | 08 Mar 19:03:46.62 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM family_table WHERE city_id = 1 
+| INFO | 08 Mar 19:03:48.11 : sql.js : 44 - [db] returned 3 rows | SELECT * FROM persons WHERE family_id = 1 
+| INFO | 08 Mar 19:06:28.05 : sql.js : 40 - [db] SELECT * FROM persons WHERE family_id = NaN  
+| INFO | 08 Mar 19:06:28.05 : sql.js : 41 - [db] error: column "nan" does not exist
+    at Connection.parseE (/home/krishna/krishna/smp/node_modules/pg/lib/connection.js:604:13)
+    at Connection.parseMessage (/home/krishna/krishna/smp/node_modules/pg/lib/connection.js:403:19)
+    at Socket.<anonymous> (/home/krishna/krishna/smp/node_modules/pg/lib/connection.js:123:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:594:20) 
+| INFO | 08 Mar 19:06:29.41 : sql.js : 44 - [db] returned 3 rows | SELECT * FROM persons WHERE family_id = 1 
+| INFO | 08 Mar 19:06:31.17 : sql.js : 40 - [db] SELECT * FROM persons WHERE family_id = NaN  
+| INFO | 08 Mar 19:06:31.17 : sql.js : 41 - [db] error: column "nan" does not exist
+    at Connection.parseE (/home/krishna/krishna/smp/node_modules/pg/lib/connection.js:604:13)
+    at Connection.parseMessage (/home/krishna/krishna/smp/node_modules/pg/lib/connection.js:403:19)
+    at Socket.<anonymous> (/home/krishna/krishna/smp/node_modules/pg/lib/connection.js:123:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:594:20) 
+| INFO | 08 Mar 19:06:32.94 : sql.js : 44 - [db] returned 3 rows | SELECT * FROM persons WHERE family_id = 1 
+| INFO | 08 Mar 19:06:36.96 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 3 
+| INFO | 08 Mar 19:06:38.00 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 4 
+| INFO | 08 Mar 19:06:38.89 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 5 
+| INFO | 08 Mar 19:06:39.65 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 6 
+| INFO | 08 Mar 19:06:40.65 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 7 
+| INFO | 08 Mar 19:06:41.56 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 8 
+| INFO | 08 Mar 19:06:42.63 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM family_table WHERE city_id = 1 
+| INFO | 08 Mar 19:06:44.90 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM family_table WHERE city_id = 1 
+| INFO | 08 Mar 19:06:45.51 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 8 
+| INFO | 08 Mar 19:06:47.42 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM family_table WHERE city_id = 1 
+| INFO | 08 Mar 19:06:53.11 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 8 
+| INFO | 08 Mar 19:06:54.09 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 7 
+| INFO | 08 Mar 19:06:55.05 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 6 
+| INFO | 08 Mar 19:06:55.95 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 5 
+| INFO | 08 Mar 19:06:56.72 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 4 
+| INFO | 08 Mar 19:06:58.08 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 3 
+| INFO | 08 Mar 19:06:58.94 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 2 
