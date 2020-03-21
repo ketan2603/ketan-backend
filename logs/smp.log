@@ -3491,3 +3491,28 @@
 | INFO | 08 Mar 19:06:56.72 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 4 
 | INFO | 08 Mar 19:06:58.08 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 3 
 | INFO | 08 Mar 19:06:58.94 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 2 
+| INFO | 08 Mar 19:17:13.35 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
+| INFO | 08 Mar 19:17:13.36 : sql.js : 25 - [sql] connecting to: smp@192.168.43.128:5432 
+| INFO | 08 Mar 19:17:13.36 : sql.js : 32 - [sql] connecting to: smp@192.168.43.128:5432 
+| INFO | 08 Mar 19:17:26.99 : sql.js : 44 - [db] returned 8 rows | SELECT * FROM city 
+| INFO | 08 Mar 19:17:30.82 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM family_table WHERE city_id = 1 
+| INFO | 08 Mar 19:17:36.54 : sql.js : 44 - [db] returned 3 rows | SELECT * FROM persons WHERE family_id = 1 
+| INFO | 08 Mar 19:18:01.08 : sql.js : 40 - [db] SELECT * FROM persons WHERE family_id = NaN  
+| INFO | 08 Mar 19:18:01.08 : sql.js : 41 - [db] error: column "nan" does not exist
+    at Connection.parseE (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:604:13)
+    at Connection.parseMessage (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:403:19)
+    at Socket.<anonymous> (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:123:22)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17) 
+| INFO | 08 Mar 19:18:04.53 : sql.js : 44 - [db] returned 3 rows | SELECT * FROM persons WHERE family_id = 1 
+| ERROR | 08 Mar 19:18:24.80 : sql.js : 22 - [error] Unexpected error on idle client: error: terminating connection due to administrator command 
+| ERROR | 08 Mar 19:18:24.80 : sql.js : 28 - [error] Unexpected error on idle client: error: terminating connection due to administrator command 
+| INFO | 08 Mar 19:38:16.74 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
+| INFO | 08 Mar 19:38:16.75 : sql.js : 25 - [sql] connecting to: smp@192.168.43.128:5432 
+| INFO | 08 Mar 19:38:16.75 : sql.js : 32 - [sql] connecting to: smp@192.168.43.128:5432 
+| INFO | 08 Mar 19:38:37.86 : sql.js : 44 - [db] returned 8 rows | SELECT * FROM city 
+| INFO | 08 Mar 19:39:00.49 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM family_table WHERE city_id = 1 
+| INFO | 08 Mar 19:39:08.81 : sql.js : 44 - [db] returned 3 rows | SELECT * FROM persons WHERE family_id = 1 
