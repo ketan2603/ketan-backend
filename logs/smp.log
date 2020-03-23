@@ -3516,3 +3516,21 @@
 | INFO | 08 Mar 19:38:37.86 : sql.js : 44 - [db] returned 8 rows | SELECT * FROM city 
 | INFO | 08 Mar 19:39:00.49 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM family_table WHERE city_id = 1 
 | INFO | 08 Mar 19:39:08.81 : sql.js : 44 - [db] returned 3 rows | SELECT * FROM persons WHERE family_id = 1 
+| INFO | 21 Mar 23:11:56.64 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
+| INFO | 21 Mar 23:11:56.67 : sql.js : 25 - [sql] connecting to: smp@192.168.43.128:5432 
+| INFO | 21 Mar 23:11:56.67 : sql.js : 32 - [sql] connecting to: smp@192.168.43.128:5432 
+| INFO | 22 Mar 10:35:33.83 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
+| INFO | 22 Mar 10:35:33.84 : sql.js : 25 - [sql] connecting to: smp@192.168.43.128:5432 
+| INFO | 22 Mar 10:35:33.84 : sql.js : 32 - [sql] connecting to: smp@192.168.43.128:5432 
+| INFO | 22 Mar 10:53:08.66 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
+| INFO | 22 Mar 10:53:08.67 : sql.js : 25 - [sql] connecting to: smp@192.168.43.128:5432 
+| INFO | 22 Mar 10:53:08.68 : sql.js : 32 - [sql] connecting to: smp@192.168.43.128:5432 
+| INFO | 22 Mar 11:48:41.43 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
+| INFO | 22 Mar 11:48:41.44 : sql.js : 25 - [sql] connecting to: smp@192.168.43.128:5432 
+| INFO | 22 Mar 11:48:41.44 : sql.js : 32 - [sql] connecting to: smp@192.168.43.128:5432 
+| INFO | 23 Mar 09:22:49.11 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
+| INFO | 23 Mar 09:22:49.13 : sql.js : 25 - [sql] connecting to: smp@192.168.43.128:5432 
+| INFO | 23 Mar 09:22:49.13 : sql.js : 32 - [sql] connecting to: smp@192.168.43.128:5432 
+| INFO | 23 Mar 11:36:53.30 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
+| INFO | 23 Mar 11:36:53.31 : sql.js : 25 - [sql] connecting to: smp@192.168.43.128:5432 
+| INFO | 23 Mar 11:36:53.31 : sql.js : 32 - [sql] connecting to: smp@192.168.43.128:5432 
