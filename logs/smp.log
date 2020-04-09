@@ -4060,3 +4060,26 @@
 | INFO | 04 Apr 15:13:01.65 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
 | INFO | 04 Apr 15:13:01.66 : sql.js : 25 - [sql] connecting to: smp@192.168.43.30:5432 
 | INFO | 04 Apr 15:13:01.66 : sql.js : 32 - [sql] connecting to: smp@192.168.43.30:5432 
+| INFO | 04 Apr 15:17:08.51 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
+| INFO | 04 Apr 15:17:08.52 : sql.js : 25 - [sql] connecting to: smp@192.168.43.30:5432 
+| INFO | 04 Apr 15:17:08.52 : sql.js : 32 - [sql] connecting to: smp@192.168.43.30:5432 
+| INFO | 04 Apr 15:17:16.42 : sql.js : 44 - [db] returned 109 rows | SELECT * FROM city 
+| INFO | 04 Apr 15:55:49.38 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
+| INFO | 04 Apr 15:55:49.39 : sql.js : 25 - [sql] connecting to: smp@192.168.43.30:5432 
+| INFO | 04 Apr 15:55:49.39 : sql.js : 32 - [sql] connecting to: smp@192.168.43.30:5432 
+| INFO | 04 Apr 15:55:56.30 : sql.js : 44 - [db] returned 109 rows | SELECT * FROM city 
+| INFO | 04 Apr 15:55:57.83 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 5 
+| INFO | 04 Apr 15:55:59.21 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM family_table WHERE city_id = 3 
+| INFO | 04 Apr 15:56:34.74 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM persons WHERE family_id = 10 
+| INFO | 09 Apr 02:43:47.22 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
+| INFO | 09 Apr 02:43:47.27 : sql.js : 25 - [sql] connecting to: smp@192.168.43.30:5432 
+| INFO | 09 Apr 02:43:47.27 : sql.js : 32 - [sql] connecting to: smp@192.168.43.30:5432 
+| INFO | 09 Apr 19:58:15.78 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
+| INFO | 09 Apr 19:58:16.16 : sql.js : 25 - [sql] connecting to: smp@192.168.43.30:5432 
+| INFO | 09 Apr 19:58:16.16 : sql.js : 32 - [sql] connecting to: smp@192.168.43.30:5432 
+| INFO | 09 Apr 20:06:53.70 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
+| INFO | 09 Apr 20:06:53.71 : sql.js : 25 - [sql] connecting to: smp@192.168.43.30:5432 
+| INFO | 09 Apr 20:06:53.71 : sql.js : 32 - [sql] connecting to: smp@192.168.43.30:5432 
+| INFO | 09 Apr 20:08:50.16 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
+| INFO | 09 Apr 20:08:50.17 : sql.js : 25 - [sql] connecting to: smp@192.168.42.194:5432 
+| INFO | 09 Apr 20:08:50.17 : sql.js : 32 - [sql] connecting to: smp@192.168.42.194:5432 
