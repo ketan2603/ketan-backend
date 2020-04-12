@@ -4083,3 +4083,30 @@
 | INFO | 09 Apr 20:08:50.16 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
 | INFO | 09 Apr 20:08:50.17 : sql.js : 25 - [sql] connecting to: smp@192.168.42.194:5432 
 | INFO | 09 Apr 20:08:50.17 : sql.js : 32 - [sql] connecting to: smp@192.168.42.194:5432 
+| INFO | 12 Apr 11:42:31.93 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
+| INFO | 12 Apr 11:42:32.14 : sql.js : 25 - [sql] connecting to: smp@192.168.43.30:5432 
+| INFO | 12 Apr 11:42:32.14 : sql.js : 32 - [sql] connecting to: smp@192.168.43.30:5432 
+| INFO | 12 Apr 11:43:34.52 : sql.js : 44 - [db] returned 109 rows | SELECT * FROM city 
+| INFO | 12 Apr 11:47:23.07 : sql.js : 44 - [db] returned 109 rows | SELECT * FROM city 
+| INFO | 12 Apr 11:47:40.15 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM family_table WHERE city_id = 9 
+| INFO | 12 Apr 11:48:05.09 : sql.js : 44 - [db] returned 4 rows | SELECT * FROM persons WHERE family_id = 3 
+| INFO | 12 Apr 11:48:48.33 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM family_table WHERE city_id = 2 
+| INFO | 12 Apr 11:48:58.82 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM family_table WHERE city_id = 3 
+| INFO | 12 Apr 11:49:09.66 : sql.js : 44 - [db] returned 2 rows | SELECT * FROM family_table WHERE city_id = 7 
+| INFO | 12 Apr 11:50:09.77 : sql.js : 44 - [db] returned 109 rows | SELECT * FROM city 
+| INFO | 12 Apr 11:50:12.70 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM family_table WHERE city_id = 2 
+| INFO | 12 Apr 11:50:16.28 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM persons WHERE family_id = 2 
+| INFO | 12 Apr 11:51:39.68 : sql.js : 40 - [db] SELECT * FROM persons WHERE family_id = NaN  
+| INFO | 12 Apr 11:51:39.68 : sql.js : 41 - [db] error: column "nan" does not exist
+    at Connection.parseE (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:604:13)
+    at Connection.parseMessage (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:403:19)
+    at Socket.<anonymous> (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:123:22)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17) 
+| INFO | 12 Apr 11:51:39.80 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM persons WHERE family_id = 2 
+| INFO | 12 Apr 11:54:05.42 : sql.js : 44 - [db] returned 109 rows | SELECT * FROM city 
+| INFO | 12 Apr 11:57:19.64 : sql.js : 44 - [db] returned 109 rows | SELECT * FROM city 
+| INFO | 12 Apr 11:57:22.66 : sql.js : 44 - [db] returned 2 rows | SELECT * FROM family_table WHERE city_id = 7 
