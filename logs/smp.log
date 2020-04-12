@@ -4110,3 +4110,51 @@
 | INFO | 12 Apr 11:54:05.42 : sql.js : 44 - [db] returned 109 rows | SELECT * FROM city 
 | INFO | 12 Apr 11:57:19.64 : sql.js : 44 - [db] returned 109 rows | SELECT * FROM city 
 | INFO | 12 Apr 11:57:22.66 : sql.js : 44 - [db] returned 2 rows | SELECT * FROM family_table WHERE city_id = 7 
+| INFO | 12 Apr 12:09:11.36 : sql.js : 44 - [db] returned 109 rows | SELECT * FROM city 
+| INFO | 12 Apr 12:09:17.11 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM family_table WHERE city_id = 3 
+| INFO | 12 Apr 12:09:21.18 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM persons WHERE family_id = 10 
+| INFO | 12 Apr 12:09:35.29 : sql.js : 40 - [db] SELECT * FROM persons WHERE family_id = NaN  
+| INFO | 12 Apr 12:09:35.29 : sql.js : 41 - [db] error: column "nan" does not exist
+    at Connection.parseE (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:604:13)
+    at Connection.parseMessage (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:403:19)
+    at Socket.<anonymous> (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:123:22)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17) 
+| INFO | 12 Apr 12:09:39.70 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM persons WHERE family_id = 10 
+| INFO | 12 Apr 12:10:14.13 : sql.js : 40 - [db] SELECT * FROM persons WHERE family_id = NaN  
+| INFO | 12 Apr 12:10:14.13 : sql.js : 41 - [db] error: column "nan" does not exist
+    at Connection.parseE (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:604:13)
+    at Connection.parseMessage (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:403:19)
+    at Socket.<anonymous> (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:123:22)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17) 
+| INFO | 12 Apr 12:12:27.79 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM persons WHERE family_id = 10 
+| INFO | 12 Apr 12:12:31.44 : sql.js : 40 - [db] SELECT * FROM persons WHERE family_id = NaN  
+| INFO | 12 Apr 12:12:31.44 : sql.js : 41 - [db] error: column "nan" does not exist
+    at Connection.parseE (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:604:13)
+    at Connection.parseMessage (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:403:19)
+    at Socket.<anonymous> (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:123:22)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17) 
+| INFO | 12 Apr 12:13:14.95 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM persons WHERE family_id = 10 
+| INFO | 12 Apr 12:17:06.100 : sql.js : 40 - [db] SELECT * FROM persons WHERE family_id = NaN  
+| INFO | 12 Apr 12:17:06.100 : sql.js : 41 - [db] error: column "nan" does not exist
+    at Connection.parseE (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:604:13)
+    at Connection.parseMessage (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:403:19)
+    at Socket.<anonymous> (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:123:22)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17) 
+| INFO | 12 Apr 12:20:01.67 : sql.js : 44 - [db] returned 109 rows | SELECT * FROM city 
+| INFO | 12 Apr 12:20:14.78 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 142 
