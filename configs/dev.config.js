@@ -8,7 +8,7 @@ const config = {
         db: 'smp',
         username: 'postgres',
         password: 'ketan123',
-        host: '192.168.43.30',
+        host: '192.168.42.194',
         port: 5432
     },
 };
