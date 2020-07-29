@@ -1,8 +1,8 @@
 const config = {
     app: {
-        port: 4444,
+        port: 5432,
         host: 'http://192.168.1.24',
-        adminHost: 'http://localhost:4444/'
+        adminHost: 'http://localhost:5432/'
     },
     database: {
         db: 'smp',
