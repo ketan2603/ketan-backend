@@ -4332,3 +4332,6 @@
 | INFO | 29 Jul 18:19:57.51 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
 | INFO | 29 Jul 18:19:57.52 : sql.js : 25 - [sql] connecting to: smp@192.168.42.194:5432 
 | INFO | 29 Jul 18:19:57.52 : sql.js : 32 - [sql] connecting to: smp@192.168.42.194:5432 
+| INFO | 07 Aug 20:34:16.58 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
+| INFO | 07 Aug 20:34:16.61 : sql.js : 25 - [sql] connecting to: ketan@192.168.42.194:5432 
+| INFO | 07 Aug 20:34:16.62 : sql.js : 32 - [sql] connecting to: ketan@192.168.42.194:5432 
