@@ -7,8 +7,8 @@ const config = {
     database: {
         db: 'ketan',
         username: 'postgres',
-        password: 'ketan123',
-        host: '192.168.42.194',
+        password: '12345',
+        host: 'localhost',
         port: 5432
     },
 };

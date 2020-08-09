@@ -4335,3 +4335,40 @@
 | INFO | 07 Aug 20:34:16.58 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
 | INFO | 07 Aug 20:34:16.61 : sql.js : 25 - [sql] connecting to: ketan@192.168.42.194:5432 
 | INFO | 07 Aug 20:34:16.62 : sql.js : 32 - [sql] connecting to: ketan@192.168.42.194:5432 
+| INFO | 07 Aug 21:26:21.52 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
+| INFO | 07 Aug 21:26:21.53 : sql.js : 25 - [sql] connecting to: ketan@192.168.42.194:5432 
+| INFO | 07 Aug 21:26:21.53 : sql.js : 32 - [sql] connecting to: ketan@192.168.42.194:5432 
+| INFO | 07 Aug 21:50:29.43 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
+| INFO | 07 Aug 21:50:29.44 : sql.js : 25 - [sql] connecting to: ketan@192.168.42.194:5432 
+| INFO | 07 Aug 21:50:29.44 : sql.js : 32 - [sql] connecting to: ketan@192.168.42.194:5432 
+| INFO | 07 Aug 22:02:14.32 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
+| INFO | 07 Aug 22:02:14.33 : sql.js : 25 - [sql] connecting to: ketan@192.168.42.194:5432 
+| INFO | 07 Aug 22:02:14.33 : sql.js : 32 - [sql] connecting to: ketan@192.168.42.194:5432 
+| INFO | 07 Aug 22:12:07.27 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
+| INFO | 07 Aug 22:12:07.28 : sql.js : 25 - [sql] connecting to: ketan@192.168.42.194:5432 
+| INFO | 07 Aug 22:12:07.28 : sql.js : 32 - [sql] connecting to: ketan@192.168.42.194:5432 
+| INFO | 07 Aug 22:14:11.97 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
+| INFO | 07 Aug 22:14:11.98 : sql.js : 25 - [sql] connecting to: ketan@192.168.42.194:5432 
+| INFO | 07 Aug 22:14:11.98 : sql.js : 32 - [sql] connecting to: ketan@192.168.42.194:5432 
+| INFO | 07 Aug 22:15:16.37 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
+| INFO | 07 Aug 22:15:16.38 : sql.js : 25 - [sql] connecting to: ketan@localhost:5432 
+| INFO | 07 Aug 22:15:16.38 : sql.js : 32 - [sql] connecting to: ketan@localhost:5432 
+| INFO | 07 Aug 22:26:03.37 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
+| INFO | 07 Aug 22:26:03.38 : sql.js : 25 - [sql] connecting to: ketan@localhost:5432 
+| INFO | 07 Aug 22:26:03.39 : sql.js : 32 - [sql] connecting to: ketan@localhost:5432 
+| INFO | 07 Aug 22:29:45.73 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
+| INFO | 07 Aug 22:29:45.74 : sql.js : 25 - [sql] connecting to: ketan@localhost:5432 
+| INFO | 07 Aug 22:29:45.74 : sql.js : 32 - [sql] connecting to: ketan@localhost:5432 
+| INFO | 07 Aug 22:32:45.96 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
+| INFO | 07 Aug 22:32:45.97 : sql.js : 25 - [sql] connecting to: ketan@localhost:5432 
+| INFO | 07 Aug 22:32:45.97 : sql.js : 32 - [sql] connecting to: ketan@localhost:5432 
+| INFO | 07 Aug 22:32:52.60 : sql.js : 44 - [db] returned 103 rows | SELECT * FROM city 
+| INFO | 07 Aug 22:34:41.55 : sql.js : 44 - [db] returned 103 rows | SELECT * FROM city 
+| INFO | 07 Aug 22:35:10.98 : sql.js : 44 - [db] returned 103 rows | SELECT * FROM city 
+| INFO | 07 Aug 22:38:08.38 : sql.js : 44 - [db] returned 103 rows | SELECT * FROM city 
+| INFO | 07 Aug 22:38:18.16 : sql.js : 44 - [db] returned 103 rows | SELECT * FROM city 
+| INFO | 07 Aug 22:38:22.05 : sql.js : 44 - [db] returned 103 rows | SELECT * FROM city 
+| INFO | 07 Aug 22:40:13.86 : sql.js : 44 - [db] returned 103 rows | SELECT * FROM city 
+| INFO | 07 Aug 22:41:32.60 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM family_table WHERE city_id = 7 
+| INFO | 07 Aug 22:41:41.32 : sql.js : 44 - [db] returned 3 rows | SELECT * FROM persons WHERE family_id = 1 
+| INFO | 07 Aug 22:41:51.86 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 2 
