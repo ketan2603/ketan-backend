@@ -4372,3 +4372,21 @@
 | INFO | 07 Aug 22:41:32.60 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM family_table WHERE city_id = 7 
 | INFO | 07 Aug 22:41:41.32 : sql.js : 44 - [db] returned 3 rows | SELECT * FROM persons WHERE family_id = 1 
 | INFO | 07 Aug 22:41:51.86 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 2 
+| INFO | 09 Aug 14:28:50.48 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
+| INFO | 09 Aug 14:28:50.50 : sql.js : 25 - [sql] connecting to: ketan@localhost:5432 
+| INFO | 09 Aug 14:28:50.50 : sql.js : 32 - [sql] connecting to: ketan@localhost:5432 
+| INFO | 09 Aug 14:28:58.01 : sql.js : 44 - [db] returned 103 rows | SELECT * FROM city 
+| INFO | 09 Aug 14:29:03.72 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM family_table WHERE city_id = 7 
+| INFO | 09 Aug 14:29:05.29 : sql.js : 44 - [db] returned 3 rows | SELECT * FROM persons WHERE family_id = 1 
+| INFO | 09 Aug 14:29:30.85 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 4 
+| INFO | 09 Aug 14:29:32.72 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 5 
+| INFO | 09 Aug 14:29:33.37 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 5 
+| INFO | 09 Aug 14:29:33.73 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 6 
+| INFO | 09 Aug 14:29:34.01 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 6 
+| INFO | 09 Aug 14:29:34.72 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM family_table WHERE city_id = 7 
+| INFO | 09 Aug 14:29:35.19 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 8 
+| INFO | 09 Aug 14:29:35.61 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 1 
+| INFO | 09 Aug 14:29:36.58 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 9 
+| INFO | 09 Aug 14:29:36.94 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 10 
+| INFO | 09 Aug 14:29:37.35 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 11 
+| INFO | 09 Aug 17:57:15.90 : sql.js : 44 - [db] returned 103 rows | SELECT * FROM city 
