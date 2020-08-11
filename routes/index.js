@@ -75,9 +75,9 @@ router.all('/familyname/add', function (req, res) {
   console.log(req.query)
   console.log("req.body", req.body)
   const data = req.body;
-  if (!data.family_id) {
-    return res.send({ success: 0, msg: "Invalid data." });
-  }
+  // if (!data.family_id) {
+  //   return res.send({ success: 0, msg: "Invalid data." });
+  // }
   db.executeQuery(queryBuiler.insertFamilyName(data), (person) => {
     res.send({ success: 1, msg: "Family add successfully." });
   })
