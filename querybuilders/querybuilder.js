@@ -40,4 +40,9 @@ module.exports = {
     getFaimilyMemberDetail: (data) => {
         return util.format(`SELECT * FROM persons WHERE person_id = ${(Number(data.person_id))}`);
     },
+     insertFamilyName: (data) => {
+        return util.format('INSERT INTO persons (person_name, city_id, dob, education, married_status, mobile_number, wife_address, address, office_address, family_id) ' +
+            'VALUES(\'%s\',\'%s\', \'%s\') RETURNING *',
+            data.family_name, data.city_id, data.zone_id );
+    },
 }

@@ -3491,3 +3491,293 @@
 | INFO | 08 Mar 19:06:56.72 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 4 
 | INFO | 08 Mar 19:06:58.08 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 3 
 | INFO | 08 Mar 19:06:58.94 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 2 
+| INFO | 25 Jul 13:17:54.60 : logger.service.js : 31 - [logger] log path: /home/astics/ketan-backend/logs/smp.log 
+| INFO | 25 Jul 13:17:54.60 : sql.js : 25 - [sql] connecting to: smp@192.168.43.128:5432 
+| INFO | 25 Jul 13:17:54.60 : sql.js : 32 - [sql] connecting to: smp@192.168.43.128:5432 
+| INFO | 25 Jul 19:37:13.58 : logger.service.js : 31 - [logger] log path: /home/astics/webk/ketan-backend/logs/smp.log 
+| INFO | 25 Jul 19:37:13.60 : sql.js : 25 - [sql] connecting to: smp@192.168.43.128:5432 
+| INFO | 25 Jul 19:37:13.60 : sql.js : 32 - [sql] connecting to: smp@192.168.43.128:5432 
+| INFO | 25 Jul 19:41:05.72 : logger.service.js : 31 - [logger] log path: /home/astics/webk/ketan-backend/logs/smp.log 
+| INFO | 25 Jul 19:41:05.73 : sql.js : 25 - [sql] connecting to: smp@192.168.43.242:5432 
+| INFO | 25 Jul 19:41:05.73 : sql.js : 32 - [sql] connecting to: smp@192.168.43.242:5432 
+| INFO | 25 Jul 19:53:47.61 : logger.service.js : 31 - [logger] log path: /home/astics/webk/ketan-backend/logs/smp.log 
+| INFO | 25 Jul 19:53:47.62 : sql.js : 25 - [sql] connecting to: smp@192.168.43.242:5432 
+| INFO | 25 Jul 19:53:47.62 : sql.js : 32 - [sql] connecting to: smp@192.168.43.242:5432 
+| INFO | 25 Jul 19:54:21.03 : sql.js : 44 - [db] returned 8 rows | SELECT * FROM city 
+| INFO | 25 Jul 19:55:34.04 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 2 
+| INFO | 25 Jul 19:55:37.27 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 3 
+| INFO | 25 Jul 19:55:38.81 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 4 
+| INFO | 25 Jul 19:55:40.07 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 5 
+| INFO | 25 Jul 19:55:41.37 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 6 
+| INFO | 25 Jul 19:55:42.48 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 7 
+| INFO | 25 Jul 19:55:43.67 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 8 
+| INFO | 25 Jul 19:55:44.59 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM family_table WHERE city_id = 1 
+| INFO | 25 Jul 19:55:46.82 : sql.js : 44 - [db] returned 3 rows | SELECT * FROM persons WHERE family_id = 1 
+| INFO | 25 Jul 19:55:51.02 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 8 
+| INFO | 25 Jul 19:55:52.30 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM family_table WHERE city_id = 1 
+| INFO | 29 Jul 18:16:38.03 : logger.service.js : 31 - [logger] log path: /home/astics/webk/ketan-backend/logs/smp.log 
+| INFO | 29 Jul 18:16:38.06 : sql.js : 25 - [sql] connecting to: smp@192.168.43.242:5432 
+| INFO | 29 Jul 18:16:38.06 : sql.js : 32 - [sql] connecting to: smp@192.168.43.242:5432 
+| INFO | 31 Jul 17:47:07.11 : logger.service.js : 31 - [logger] log path: /home/astics/webk/ketan-backend/logs/smp.log 
+| INFO | 31 Jul 17:47:07.17 : sql.js : 25 - [sql] connecting to: smp@192.168.43.242:5432 
+| INFO | 31 Jul 17:47:07.17 : sql.js : 32 - [sql] connecting to: smp@192.168.43.242:5432 
+| INFO | 31 Jul 18:25:38.51 : sql.js : 44 - [db] returned 8 rows | SELECT * FROM city 
+| INFO | 31 Jul 18:25:50.38 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM family_table WHERE city_id = 1 
+| INFO | 31 Jul 18:25:53.11 : sql.js : 44 - [db] returned 3 rows | SELECT * FROM persons WHERE family_id = 1 
+| INFO | 31 Jul 18:26:01.02 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 8 
+| INFO | 31 Jul 18:26:03.25 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 7 
+| INFO | 31 Jul 18:26:04.48 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 6 
+| INFO | 31 Jul 18:26:05.43 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 5 
+| INFO | 31 Jul 18:26:06.38 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 4 
+| INFO | 31 Jul 18:26:07.40 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 3 
+| INFO | 31 Jul 18:26:08.20 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 2 
+| INFO | 31 Jul 18:26:09.54 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM family_table WHERE city_id = 1 
+| INFO | 31 Jul 18:26:29.93 : sql.js : 40 - [db] SELECT * FROM persons WHERE family_id = NaN  
+| INFO | 31 Jul 18:26:29.93 : sql.js : 41 - [db] error: column "nan" does not exist
+    at Connection.parseE (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:614:13)
+    at Connection.parseMessage (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:413:19)
+    at Socket.<anonymous> (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:129:22)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23) 
+| INFO | 31 Jul 18:26:31.12 : sql.js : 44 - [db] returned 3 rows | SELECT * FROM persons WHERE family_id = 1 
+| INFO | 31 Jul 18:26:31.92 : sql.js : 40 - [db] SELECT * FROM persons WHERE family_id = NaN  
+| INFO | 31 Jul 18:26:31.92 : sql.js : 41 - [db] error: column "nan" does not exist
+    at Connection.parseE (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:614:13)
+    at Connection.parseMessage (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:413:19)
+    at Socket.<anonymous> (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:129:22)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23) 
+| INFO | 31 Jul 18:36:56.75 : sql.js : 44 - [db] returned 8 rows | SELECT * FROM city 
+| INFO | 31 Jul 18:36:59.04 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM family_table WHERE city_id = 1 
+| INFO | 31 Jul 18:37:29.30 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM family_table WHERE city_id = 1 
+| INFO | 31 Jul 18:37:32.95 : sql.js : 44 - [db] returned 3 rows | SELECT * FROM persons WHERE family_id = 1 
+| INFO | 31 Jul 18:37:40.77 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM family_table WHERE city_id = 1 
+| INFO | 31 Jul 18:37:41.80 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM family_table WHERE city_id = 1 
+| INFO | 31 Jul 19:02:51.07 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:03:07.86 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:03:22.01 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:03:46.07 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:04:19.56 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:05:52.40 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:06:01.81 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:06:24.83 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:12:11.81 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:12:18.05 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:15:42.95 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:18:18.95 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:18:25.77 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:18:30.98 : sql.js : 40 - [db] SELECT * FROM city WHERE zone_id = undefined  
+| INFO | 31 Jul 19:18:30.99 : sql.js : 41 - [db] error: column "undefined" does not exist
+    at Connection.parseE (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:614:13)
+    at Connection.parseMessage (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:413:19)
+    at Socket.<anonymous> (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:129:22)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23) 
+| INFO | 31 Jul 19:18:48.74 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:19:17.06 : sql.js : 40 - [db] SELECT * FROM city WHERE zone_id = undefined  
+| INFO | 31 Jul 19:19:17.06 : sql.js : 41 - [db] error: column "undefined" does not exist
+    at Connection.parseE (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:614:13)
+    at Connection.parseMessage (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:413:19)
+    at Socket.<anonymous> (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:129:22)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23) 
+| INFO | 31 Jul 19:20:11.44 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:20:21.99 : logger.service.js : 31 - [logger] log path: /home/astics/webk/ketan-backend/logs/smp.log 
+| INFO | 31 Jul 19:20:22.01 : sql.js : 25 - [sql] connecting to: smp@192.168.43.242:5432 
+| INFO | 31 Jul 19:20:22.01 : sql.js : 32 - [sql] connecting to: smp@192.168.43.242:5432 
+| INFO | 31 Jul 19:20:25.52 : sql.js : 40 - [db] SELECT * FROM city WHERE zone_id = undefined  
+| INFO | 31 Jul 19:20:25.52 : sql.js : 41 - [db] error: column "undefined" does not exist
+    at Connection.parseE (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:614:13)
+    at Connection.parseMessage (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:413:19)
+    at Socket.<anonymous> (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:129:22)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23) 
+| INFO | 31 Jul 19:23:03.72 : logger.service.js : 31 - [logger] log path: /home/astics/webk/ketan-backend/logs/smp.log 
+| INFO | 31 Jul 19:23:03.73 : sql.js : 25 - [sql] connecting to: smp@192.168.43.242:5432 
+| INFO | 31 Jul 19:23:03.73 : sql.js : 32 - [sql] connecting to: smp@192.168.43.242:5432 
+| INFO | 31 Jul 19:23:16.90 : sql.js : 40 - [db] SELECT * FROM city WHERE zone_id = undefined  
+| INFO | 31 Jul 19:23:16.90 : sql.js : 41 - [db] error: column "undefined" does not exist
+    at Connection.parseE (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:614:13)
+    at Connection.parseMessage (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:413:19)
+    at Socket.<anonymous> (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:129:22)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23) 
+| INFO | 31 Jul 19:26:23.14 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:26:40.81 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:26:48.80 : sql.js : 40 - [db] SELECT * FROM city WHERE zone_id = undefined  
+| INFO | 31 Jul 19:26:48.80 : sql.js : 41 - [db] error: column "undefined" does not exist
+    at Connection.parseE (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:614:13)
+    at Connection.parseMessage (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:413:19)
+    at Socket.<anonymous> (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:129:22)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23) 
+| INFO | 31 Jul 19:27:02.97 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:27:25.61 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:27:30.54 : sql.js : 40 - [db] SELECT * FROM city WHERE zone_id = undefined  
+| INFO | 31 Jul 19:27:30.54 : sql.js : 41 - [db] error: column "undefined" does not exist
+    at Connection.parseE (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:614:13)
+    at Connection.parseMessage (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:413:19)
+    at Socket.<anonymous> (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:129:22)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23) 
+| INFO | 31 Jul 19:29:59.61 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:30:08.81 : sql.js : 40 - [db] SELECT * FROM city WHERE zone_id = undefined  
+| INFO | 31 Jul 19:30:08.82 : sql.js : 41 - [db] error: column "undefined" does not exist
+    at Connection.parseE (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:614:13)
+    at Connection.parseMessage (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:413:19)
+    at Socket.<anonymous> (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:129:22)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23) 
+| INFO | 31 Jul 19:30:26.83 : logger.service.js : 31 - [logger] log path: /home/astics/webk/ketan-backend/logs/smp.log 
+| INFO | 31 Jul 19:30:26.84 : sql.js : 25 - [sql] connecting to: smp@192.168.43.242:5432 
+| INFO | 31 Jul 19:30:26.84 : sql.js : 32 - [sql] connecting to: smp@192.168.43.242:5432 
+| INFO | 31 Jul 19:30:30.94 : sql.js : 40 - [db] SELECT * FROM city WHERE zone_id = undefined  
+| INFO | 31 Jul 19:30:30.94 : sql.js : 41 - [db] error: column "undefined" does not exist
+    at Connection.parseE (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:614:13)
+    at Connection.parseMessage (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:413:19)
+    at Socket.<anonymous> (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:129:22)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23) 
+| INFO | 31 Jul 19:30:47.54 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:32:51.15 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:33:41.98 : sql.js : 40 - [db] SELECT * FROM city WHERE zone_id = undefined  
+| INFO | 31 Jul 19:33:41.99 : sql.js : 41 - [db] error: column "undefined" does not exist
+    at Connection.parseE (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:614:13)
+    at Connection.parseMessage (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:413:19)
+    at Socket.<anonymous> (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:129:22)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23) 
+| INFO | 31 Jul 19:38:00.08 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:38:07.09 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:38:09.59 : sql.js : 40 - [db] SELECT * FROM city WHERE zone_id = undefined  
+| INFO | 31 Jul 19:38:09.59 : sql.js : 41 - [db] error: column "undefined" does not exist
+    at Connection.parseE (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:614:13)
+    at Connection.parseMessage (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:413:19)
+    at Socket.<anonymous> (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:129:22)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23) 
+| INFO | 31 Jul 19:38:37.38 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:38:39.70 : sql.js : 40 - [db] SELECT * FROM city WHERE zone_id = undefined  
+| INFO | 31 Jul 19:38:39.70 : sql.js : 41 - [db] error: column "undefined" does not exist
+    at Connection.parseE (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:614:13)
+    at Connection.parseMessage (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:413:19)
+    at Socket.<anonymous> (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:129:22)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23) 
+| INFO | 31 Jul 19:40:22.50 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:41:32.03 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:41:36.96 : sql.js : 40 - [db] SELECT * FROM city WHERE zone_id = undefined  
+| INFO | 31 Jul 19:41:36.96 : sql.js : 41 - [db] error: column "undefined" does not exist
+    at Connection.parseE (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:614:13)
+    at Connection.parseMessage (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:413:19)
+    at Socket.<anonymous> (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:129:22)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23) 
+| INFO | 31 Jul 19:43:26.28 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:43:49.10 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:43:53.43 : sql.js : 40 - [db] SELECT * FROM city WHERE zone_id = undefined  
+| INFO | 31 Jul 19:43:53.43 : sql.js : 41 - [db] error: column "undefined" does not exist
+    at Connection.parseE (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:614:13)
+    at Connection.parseMessage (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:413:19)
+    at Socket.<anonymous> (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:129:22)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23) 
+| INFO | 31 Jul 19:44:21.95 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:44:24.18 : sql.js : 40 - [db] SELECT * FROM city WHERE zone_id = undefined  
+| INFO | 31 Jul 19:44:24.18 : sql.js : 41 - [db] error: column "undefined" does not exist
+    at Connection.parseE (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:614:13)
+    at Connection.parseMessage (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:413:19)
+    at Socket.<anonymous> (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:129:22)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23) 
+| INFO | 31 Jul 19:45:50.74 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:45:56.15 : sql.js : 40 - [db] SELECT * FROM city WHERE zone_id = undefined  
+| INFO | 31 Jul 19:45:56.15 : sql.js : 41 - [db] error: column "undefined" does not exist
+    at Connection.parseE (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:614:13)
+    at Connection.parseMessage (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:413:19)
+    at Socket.<anonymous> (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:129:22)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23) 
+| INFO | 31 Jul 19:46:32.87 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:46:38.01 : sql.js : 40 - [db] SELECT * FROM city WHERE zone_id = undefined  
+| INFO | 31 Jul 19:46:38.01 : sql.js : 41 - [db] error: column "undefined" does not exist
+    at Connection.parseE (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:614:13)
+    at Connection.parseMessage (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:413:19)
+    at Socket.<anonymous> (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:129:22)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23) 
+| INFO | 31 Jul 19:47:07.21 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:47:11.57 : sql.js : 40 - [db] SELECT * FROM city WHERE zone_id = undefined  
+| INFO | 31 Jul 19:47:11.57 : sql.js : 41 - [db] error: column "undefined" does not exist
+    at Connection.parseE (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:614:13)
+    at Connection.parseMessage (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:413:19)
+    at Socket.<anonymous> (/home/astics/webk/ketan-backend/node_modules/pg/lib/connection.js:129:22)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23) 
+| INFO | 31 Jul 19:51:41.58 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:51:49.46 : sql.js : 44 - [db] returned 8 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Jul 19:53:13.58 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:53:18.49 : sql.js : 44 - [db] returned 8 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Jul 19:53:23.11 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 31 Jul 19:53:28.36 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM city WHERE zone_id = 3 
+| INFO | 31 Jul 19:53:31.74 : sql.js : 44 - [db] returned 8 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Jul 19:53:38.11 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM city WHERE zone_id = 3 
+| INFO | 31 Jul 19:54:08.09 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Jul 19:54:52.42 : sql.js : 44 - [db] returned 8 rows | SELECT * FROM city WHERE zone_id = 1 

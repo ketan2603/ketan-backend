@@ -7,8 +7,8 @@ const config = {
     database: {
         db: 'smp',
         username: 'postgres',
-        password: '12345',
-        host: '192.168.43.128',
+        password: 'GuestlineDb123#$',
+        host: `192.168.43.242`, //'192.168.43.128',
         port: 5432
     },
 };
