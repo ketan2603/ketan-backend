@@ -15,7 +15,7 @@ router.all('/zone/list', function (req, res) {
 });
 router.all('/city/list', function (req, res) {
   const data = req.query || req.body;
-  console.log("------------",data)
+  console.log("------------", data)
   db.executeQuery(queryBuiler.getAllCityByZone(data), (cities) => {
     res.send(cities);
   })
@@ -80,6 +80,20 @@ router.all('/familyname/add', function (req, res) {
   // }
   db.executeQuery(queryBuiler.insertFamilyName(data), (person) => {
     res.send({ success: 1, msg: "Family add successfully." });
+  })
+});
+router.all('/members/all', function (req, res) {
+
+  const data = req.query || req.body;
+  db.executeQuery(queryBuiler.getAllMembers(), (members) => {
+    res.send(members);
+  })
+});
+
+router.all('/members/zone', function (req, res) {
+  const data = req.query || req.body;
+  db.executeQuery(queryBuiler.getAllMembersZoneWise(data), (members) => {
+    res.send(members);
   })
 });
 
