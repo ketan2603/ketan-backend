@@ -40,9 +40,15 @@ module.exports = {
     getFaimilyMemberDetail: (data) => {
         return util.format(`SELECT * FROM persons WHERE person_id = ${(Number(data.person_id))}`);
     },
-     insertFamilyName: (data) => {
+    insertFamilyName: (data) => {
         return util.format('INSERT INTO family_table (family_name, city_id, zone_id) ' +
             'VALUES(\'%s\',\'%s\', \'%s\') RETURNING *',
-            data.person_name, data.city_id, data.zone_id );
+            data.person_name, data.city_id, data.zone_id);
+    },
+    getAllMembers: () => {
+        return util.format(`SELECT * FROM members`);
+    },
+    getAllMembersZoneWise: () => {
+        return util.format(`SELECT * FROM members where zone_id = ${Number(data.zone_id)}`);
     },
 }

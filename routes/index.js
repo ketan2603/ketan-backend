@@ -82,5 +82,19 @@ router.all('/familyname/add', function (req, res) {
     res.send({ success: 1, msg: "Family add successfully." });
   })
 });
+router.all('/members/all', function (req, res) {
+
+  const data = req.query || req.body;
+  db.executeQuery(queryBuiler.getAllMembers(), (members) => {
+    res.send(members);
+  })
+});
+
+router.all('/members/zone', function (req, res) {
+  const data = req.query || req.body;
+  db.executeQuery(queryBuiler.getAllMembersZoneWise(data), (members) => {
+    res.send(members);
+  })
+});
 
 module.exports = router;
