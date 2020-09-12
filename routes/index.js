@@ -13,9 +13,9 @@ router.all('/zone/list', function (req, res) {
     res.send(zones);
   })
 });
-router.all('/city/list', function (req, res) {
-  const data = req.query || req.body;
-  console.log("------------", data)
+router.post('/city/list', function (req, res) {
+  const data =req.body;
+  console.log("------------",data)
   db.executeQuery(queryBuiler.getAllCityByZone(data), (cities) => {
     res.send(cities);
   })
