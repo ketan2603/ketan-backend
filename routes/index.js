@@ -13,7 +13,14 @@ router.all('/zone/list', function (req, res) {
     res.send(zones);
   })
 });
-router.post('/city/list', function (req, res) {
+router.all('/city/list', function (req, res) {
+  const data = req.query || req.body;
+  console.log("------------",data)
+  db.executeQuery(queryBuiler.getAllCityByZone(data), (cities) => {
+    res.send(cities);
+  })
+});
+router.post('/city/list1', function (req, res) {
   const data =req.body;
   console.log("------------",data)
   db.executeQuery(queryBuiler.getAllCityByZone(data), (cities) => {
