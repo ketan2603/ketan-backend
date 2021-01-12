@@ -24,7 +24,7 @@ router.post('/city/list1', function (req, res) {
   const data =req.body;
   console.log("------------",data)
   db.executeQuery(queryBuiler.getAllCityByZone(data), (cities) => {
-    res.send(cities);
+    res.send({data:cities,zone_id:data.zone_id});
   })
 });
 router.all('/city/listAll', function (req, res) {

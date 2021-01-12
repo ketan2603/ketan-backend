@@ -5357,3 +5357,326 @@
 | INFO | 23 Nov 23:05:36.85 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
 | INFO | 23 Nov 23:05:40.08 : sql.js : 44 - [db] returned 2 rows | SELECT * FROM family_table WHERE city_id = 7 
 | INFO | 23 Nov 23:06:49.26 : sql.js : 44 - [db] returned 3 rows | SELECT * FROM persons WHERE family_id = 1 
+| INFO | 31 Dec 21:04:57.90 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
+| INFO | 31 Dec 21:04:58.20 : sql.js : 25 - [sql] connecting to: ketan@localhost:5432 
+| INFO | 31 Dec 21:04:58.21 : sql.js : 32 - [sql] connecting to: ketan@localhost:5432 
+| INFO | 31 Dec 21:12:44.47 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 21:14:00.78 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:14:22.50 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 21:14:23.28 : sql.js : 44 - [db] returned 11 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 31 Dec 21:14:31.63 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 21:14:32.37 : sql.js : 44 - [db] returned 11 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 31 Dec 21:20:24.63 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:21:47.31 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 21:23:00.87 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 21:23:01.61 : sql.js : 44 - [db] returned 14 rows | SELECT * FROM city WHERE zone_id = 3 
+| INFO | 31 Dec 21:23:52.57 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 21:26:00.68 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 21:26:17.10 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 21:26:17.84 : sql.js : 44 - [db] returned 14 rows | SELECT * FROM city WHERE zone_id = 3 
+| INFO | 31 Dec 21:27:22.08 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 21:27:22.78 : sql.js : 44 - [db] returned 30 rows | SELECT * FROM city WHERE zone_id = 4 
+| INFO | 31 Dec 21:27:26.75 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 55 
+| INFO | 31 Dec 21:27:30.51 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 49 
+| INFO | 31 Dec 21:27:37.100 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 21:27:38.66 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:34:50.87 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 21:34:51.47 : sql.js : 44 - [db] returned 11 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 31 Dec 21:34:51.48 : sql.js : 44 - [db] returned 11 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 31 Dec 21:35:17.19 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 21:35:17.92 : sql.js : 44 - [db] returned 11 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 31 Dec 21:35:17.95 : sql.js : 44 - [db] returned 11 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 31 Dec 21:35:22.07 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:35:24.96 : sql.js : 44 - [db] returned 11 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 31 Dec 21:35:27.84 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:35:30.04 : sql.js : 44 - [db] returned 14 rows | SELECT * FROM city WHERE zone_id = 3 
+| INFO | 31 Dec 21:35:32.48 : sql.js : 44 - [db] returned 30 rows | SELECT * FROM city WHERE zone_id = 4 
+| INFO | 31 Dec 21:35:34.90 : sql.js : 44 - [db] returned 28 rows | SELECT * FROM city WHERE zone_id = 5 
+| INFO | 31 Dec 21:35:39.69 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:35:44.91 : sql.js : 44 - [db] returned 11 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 31 Dec 21:36:14.88 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 21:36:15.51 : sql.js : 44 - [db] returned 11 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 31 Dec 21:36:15.52 : sql.js : 44 - [db] returned 11 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 31 Dec 21:37:06.09 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:38:05.09 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:38:05.14 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:38:08.85 : sql.js : 44 - [db] returned 11 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 31 Dec 21:38:17.58 : sql.js : 44 - [db] returned 14 rows | SELECT * FROM city WHERE zone_id = 3 
+| INFO | 31 Dec 21:38:21.51 : sql.js : 44 - [db] returned 11 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 31 Dec 21:38:29.14 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:38:29.18 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:38:32.90 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 21:38:33.51 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:38:33.53 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:39:20.81 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:39:20.86 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:39:37.74 : sql.js : 44 - [db] returned 28 rows | SELECT * FROM city WHERE zone_id = 5 
+| INFO | 31 Dec 21:40:03.68 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 21:40:04.37 : sql.js : 44 - [db] returned 28 rows | SELECT * FROM city WHERE zone_id = 5 
+| INFO | 31 Dec 21:40:04.41 : sql.js : 44 - [db] returned 28 rows | SELECT * FROM city WHERE zone_id = 5 
+| INFO | 31 Dec 21:40:25.77 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:40:25.83 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:41:13.49 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 21:41:14.34 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:41:25.20 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:41:57.48 : sql.js : 44 - [db] returned 11 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 31 Dec 21:42:19.100 : sql.js : 44 - [db] returned 14 rows | SELECT * FROM city WHERE zone_id = 3 
+| INFO | 31 Dec 21:43:32.93 : sql.js : 44 - [db] returned 11 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 31 Dec 21:43:48.31 : sql.js : 44 - [db] returned 30 rows | SELECT * FROM city WHERE zone_id = 4 
+| INFO | 31 Dec 21:43:55.18 : sql.js : 44 - [db] returned 28 rows | SELECT * FROM city WHERE zone_id = 5 
+| INFO | 31 Dec 21:46:31.100 : sql.js : 44 - [db] returned 30 rows | SELECT * FROM city WHERE zone_id = 4 
+| INFO | 31 Dec 21:46:36.14 : sql.js : 44 - [db] returned 14 rows | SELECT * FROM city WHERE zone_id = 3 
+| INFO | 31 Dec 21:46:41.53 : sql.js : 44 - [db] returned 11 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 31 Dec 21:46:45.07 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:46:53.52 : sql.js : 44 - [db] returned 11 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 31 Dec 21:48:35.96 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:48:39.27 : sql.js : 44 - [db] returned 11 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 31 Dec 21:48:41.57 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:48:45.82 : sql.js : 44 - [db] returned 14 rows | SELECT * FROM city WHERE zone_id = 3 
+| INFO | 31 Dec 21:48:48.14 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:48:50.53 : sql.js : 44 - [db] returned 11 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 31 Dec 21:48:53.46 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:48:55.91 : sql.js : 44 - [db] returned 30 rows | SELECT * FROM city WHERE zone_id = 4 
+| INFO | 31 Dec 21:48:59.12 : sql.js : 44 - [db] returned 28 rows | SELECT * FROM city WHERE zone_id = 5 
+| INFO | 31 Dec 21:49:08.41 : sql.js : 44 - [db] returned 30 rows | SELECT * FROM city WHERE zone_id = 4 
+| INFO | 31 Dec 21:49:14.08 : sql.js : 44 - [db] returned 14 rows | SELECT * FROM city WHERE zone_id = 3 
+| INFO | 31 Dec 21:49:17.71 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:49:20.46 : sql.js : 44 - [db] returned 11 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 31 Dec 21:49:36.14 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:49:40.27 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 21:49:40.90 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:50:36.24 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:51:45.84 : sql.js : 44 - [db] returned 28 rows | SELECT * FROM city WHERE zone_id = 5 
+| INFO | 31 Dec 21:51:51.07 : sql.js : 44 - [db] returned 30 rows | SELECT * FROM city WHERE zone_id = 4 
+| INFO | 31 Dec 21:52:10.41 : sql.js : 44 - [db] returned 14 rows | SELECT * FROM city WHERE zone_id = 3 
+| INFO | 31 Dec 21:52:13.13 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:52:19.46 : sql.js : 44 - [db] returned 11 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 31 Dec 21:52:21.75 : sql.js : 44 - [db] returned 14 rows | SELECT * FROM city WHERE zone_id = 3 
+| INFO | 31 Dec 21:52:24.42 : sql.js : 44 - [db] returned 30 rows | SELECT * FROM city WHERE zone_id = 4 
+| INFO | 31 Dec 21:52:27.16 : sql.js : 44 - [db] returned 28 rows | SELECT * FROM city WHERE zone_id = 5 
+| INFO | 31 Dec 21:52:30.14 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:52:32.86 : sql.js : 44 - [db] returned 11 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 31 Dec 21:52:36.11 : sql.js : 44 - [db] returned 14 rows | SELECT * FROM city WHERE zone_id = 3 
+| INFO | 31 Dec 21:52:38.52 : sql.js : 44 - [db] returned 30 rows | SELECT * FROM city WHERE zone_id = 4 
+| INFO | 31 Dec 21:52:44.27 : sql.js : 44 - [db] returned 28 rows | SELECT * FROM city WHERE zone_id = 5 
+| INFO | 31 Dec 21:58:40.53 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 52 
+| INFO | 31 Dec 21:58:40.54 : sql.js : 44 - [db] returned 28 rows | SELECT * FROM city WHERE zone_id = 5 
+| INFO | 31 Dec 21:58:40.58 : sql.js : 44 - [db] returned 28 rows | SELECT * FROM city WHERE zone_id = 5 
+| INFO | 31 Dec 21:58:59.01 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 21:59:13.75 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 21:59:25.17 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:59:43.21 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 21:59:44.02 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 21:59:57.49 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
+| INFO | 31 Dec 21:59:57.51 : sql.js : 25 - [sql] connecting to: ketan@localhost:5432 
+| INFO | 31 Dec 21:59:57.51 : sql.js : 32 - [sql] connecting to: ketan@localhost:5432 
+| INFO | 31 Dec 22:00:02.96 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 22:00:15.36 : sql.js : 44 - [db] returned 11 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 31 Dec 22:00:27.56 : sql.js : 44 - [db] returned 14 rows | SELECT * FROM city WHERE zone_id = 3 
+| INFO | 31 Dec 22:00:58.08 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 22:02:48.56 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 22:02:49.22 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 22:03:17.89 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 22:04:37.65 : sql.js : 44 - [db] returned 11 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 31 Dec 22:04:58.81 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 22:05:17.44 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 22:05:18.25 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 22:05:38.06 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 22:05:49.00 : sql.js : 44 - [db] returned 30 rows | SELECT * FROM city WHERE zone_id = 4 
+| INFO | 31 Dec 22:06:27.60 : sql.js : 44 - [db] returned 14 rows | SELECT * FROM city WHERE zone_id = 3 
+| INFO | 31 Dec 22:07:27.55 : sql.js : 44 - [db] returned 28 rows | SELECT * FROM city WHERE zone_id = 5 
+| INFO | 31 Dec 22:10:58.72 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 22:10:59.34 : sql.js : 44 - [db] returned 28 rows | SELECT * FROM city WHERE zone_id = 5 
+| INFO | 31 Dec 22:11:08.09 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 22:11:13.48 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 22:11:26.33 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 22:11:27.01 : sql.js : 44 - [db] returned 11 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 31 Dec 22:11:38.04 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 22:11:38.74 : sql.js : 44 - [db] returned 14 rows | SELECT * FROM city WHERE zone_id = 3 
+| INFO | 31 Dec 22:14:51.98 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 22:14:52.79 : sql.js : 44 - [db] returned 30 rows | SELECT * FROM city WHERE zone_id = 4 
+| INFO | 31 Dec 22:15:08.69 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 22:15:09.42 : sql.js : 44 - [db] returned 30 rows | SELECT * FROM city WHERE zone_id = 4 
+| INFO | 31 Dec 22:16:10.65 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 22:16:11.33 : sql.js : 44 - [db] returned 30 rows | SELECT * FROM city WHERE zone_id = 4 
+| INFO | 31 Dec 22:16:16.64 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 22:16:17.33 : sql.js : 44 - [db] returned 30 rows | SELECT * FROM city WHERE zone_id = 4 
+| INFO | 31 Dec 22:18:13.56 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 22:18:14.27 : sql.js : 44 - [db] returned 30 rows | SELECT * FROM city WHERE zone_id = 4 
+| INFO | 31 Dec 22:20:02.90 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 22:20:03.68 : sql.js : 44 - [db] returned 11 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 31 Dec 22:22:26.18 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 22:22:29.47 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 22:22:34.28 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 22:31:38.46 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 22:32:09.82 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 22:32:27.07 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 31 Dec 22:32:27.55 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 31 Dec 22:32:50.56 : sql.js : 44 - [db] returned 11 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 12 Jan 20:16:15.07 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
+| INFO | 12 Jan 20:16:15.09 : sql.js : 25 - [sql] connecting to: ketan@localhost:5432 
+| INFO | 12 Jan 20:16:15.10 : sql.js : 32 - [sql] connecting to: ketan@localhost:5432 
+| INFO | 12 Jan 21:06:07.26 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 12 Jan 21:12:23.43 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 12 Jan 21:16:33.68 : logger.service.js : 31 - [logger] log path: /home/ketan/Desktop/ketan-backend/logs/smp.log 
+| INFO | 12 Jan 21:16:33.69 : sql.js : 25 - [sql] connecting to: ketan@localhost:5432 
+| INFO | 12 Jan 21:16:33.69 : sql.js : 32 - [sql] connecting to: ketan@localhost:5432 
+| INFO | 12 Jan 21:19:31.22 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 12 Jan 21:19:32.09 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 12 Jan 21:21:23.91 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 12 Jan 21:21:24.66 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 12 Jan 21:22:08.61 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 12 Jan 21:22:09.64 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 12 Jan 21:23:29.16 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 12 Jan 21:23:50.47 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 12 Jan 21:23:51.15 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 12 Jan 21:25:50.99 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 12 Jan 21:25:51.81 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 12 Jan 21:33:42.68 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 12 Jan 21:33:43.39 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 12 Jan 21:33:43.41 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 12 Jan 21:33:52.85 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 12 Jan 21:33:53.57 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 12 Jan 21:33:53.58 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 12 Jan 21:34:04.45 : sql.js : 44 - [db] returned 11 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 12 Jan 21:34:06.71 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 12 Jan 21:34:09.66 : sql.js : 44 - [db] returned 14 rows | SELECT * FROM city WHERE zone_id = 3 
+| INFO | 12 Jan 21:34:12.02 : sql.js : 44 - [db] returned 30 rows | SELECT * FROM city WHERE zone_id = 4 
+| INFO | 12 Jan 21:34:14.78 : sql.js : 44 - [db] returned 28 rows | SELECT * FROM city WHERE zone_id = 5 
+| INFO | 12 Jan 21:35:24.18 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 12 Jan 21:35:25.16 : sql.js : 44 - [db] returned 28 rows | SELECT * FROM city WHERE zone_id = 5 
+| INFO | 12 Jan 21:35:25.16 : sql.js : 44 - [db] returned 28 rows | SELECT * FROM city WHERE zone_id = 5 
+| INFO | 12 Jan 21:36:11.89 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 12 Jan 21:36:30.77 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 12 Jan 21:36:48.87 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 12 Jan 21:36:55.06 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 12 Jan 21:36:55.11 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 12 Jan 21:36:57.73 : sql.js : 44 - [db] returned 11 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 12 Jan 21:37:02.66 : sql.js : 44 - [db] returned 14 rows | SELECT * FROM city WHERE zone_id = 3 
+| INFO | 12 Jan 21:37:12.06 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 12 Jan 21:42:18.55 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 12 Jan 21:42:30.32 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 12 Jan 21:42:49.91 : sql.js : 44 - [db] returned 11 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 12 Jan 21:42:49.93 : sql.js : 44 - [db] returned 11 rows | SELECT * FROM city WHERE zone_id = 2 
+| INFO | 12 Jan 21:42:53.96 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 12 Jan 21:42:56.29 : sql.js : 44 - [db] returned 30 rows | SELECT * FROM city WHERE zone_id = 4 
+| INFO | 12 Jan 21:42:58.59 : sql.js : 44 - [db] returned 28 rows | SELECT * FROM city WHERE zone_id = 5 
+| INFO | 12 Jan 21:43:09.18 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 12 Jan 21:43:09.20 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 12 Jan 21:43:10.98 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 12 
+| INFO | 12 Jan 21:43:13.24 : sql.js : 44 - [db] returned 2 rows | SELECT * FROM family_table WHERE city_id = 7 
+| INFO | 12 Jan 21:43:17.09 : sql.js : 44 - [db] returned 3 rows | SELECT * FROM persons WHERE family_id = 1 
+| INFO | 12 Jan 21:44:34.41 : sql.js : 40 - [db] SELECT * FROM persons WHERE family_id = NaN  
+| INFO | 12 Jan 21:44:34.41 : sql.js : 41 - [db] error: column "nan" does not exist
+    at Connection.parseE (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:614:13)
+    at Connection.parseMessage (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:413:19)
+    at Socket.<anonymous> (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:129:22)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17) 
+| INFO | 12 Jan 21:44:37.70 : sql.js : 44 - [db] returned 3 rows | SELECT * FROM persons WHERE family_id = 1 
+| INFO | 12 Jan 21:45:32.39 : sql.js : 40 - [db] SELECT * FROM persons WHERE family_id = NaN  
+| INFO | 12 Jan 21:45:32.39 : sql.js : 41 - [db] error: column "nan" does not exist
+    at Connection.parseE (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:614:13)
+    at Connection.parseMessage (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:413:19)
+    at Socket.<anonymous> (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:129:22)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17) 
+| INFO | 12 Jan 21:45:32.56 : sql.js : 44 - [db] returned 3 rows | SELECT * FROM persons WHERE family_id = 1 
+| INFO | 12 Jan 21:45:32.75 : sql.js : 40 - [db] SELECT * FROM persons WHERE family_id = NaN  
+| INFO | 12 Jan 21:45:32.75 : sql.js : 41 - [db] error: column "nan" does not exist
+    at Connection.parseE (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:614:13)
+    at Connection.parseMessage (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:413:19)
+    at Socket.<anonymous> (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:129:22)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17) 
+| INFO | 12 Jan 21:45:35.35 : sql.js : 44 - [db] returned 3 rows | SELECT * FROM persons WHERE family_id = 1 
+| INFO | 12 Jan 21:45:35.63 : sql.js : 40 - [db] SELECT * FROM persons WHERE family_id = NaN  
+| INFO | 12 Jan 21:45:35.64 : sql.js : 41 - [db] error: column "nan" does not exist
+    at Connection.parseE (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:614:13)
+    at Connection.parseMessage (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:413:19)
+    at Socket.<anonymous> (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:129:22)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17) 
+| INFO | 12 Jan 21:45:48.19 : sql.js : 44 - [db] returned 3 rows | SELECT * FROM persons WHERE family_id = 1 
+| INFO | 12 Jan 21:45:52.48 : sql.js : 40 - [db] SELECT * FROM persons WHERE family_id = NaN  
+| INFO | 12 Jan 21:45:52.48 : sql.js : 41 - [db] error: column "nan" does not exist
+    at Connection.parseE (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:614:13)
+    at Connection.parseMessage (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:413:19)
+    at Socket.<anonymous> (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:129:22)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17) 
+| INFO | 12 Jan 21:45:53.67 : sql.js : 44 - [db] returned 3 rows | SELECT * FROM persons WHERE family_id = 1 
+| INFO | 12 Jan 21:46:07.37 : sql.js : 40 - [db] SELECT * FROM persons WHERE family_id = NaN  
+| INFO | 12 Jan 21:46:07.37 : sql.js : 41 - [db] error: column "nan" does not exist
+    at Connection.parseE (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:614:13)
+    at Connection.parseMessage (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:413:19)
+    at Socket.<anonymous> (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:129:22)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17) 
+| INFO | 12 Jan 21:46:09.27 : sql.js : 44 - [db] returned 3 rows | SELECT * FROM persons WHERE family_id = 1 
+| INFO | 12 Jan 21:46:11.57 : sql.js : 40 - [db] SELECT * FROM persons WHERE family_id = NaN  
+| INFO | 12 Jan 21:46:11.58 : sql.js : 41 - [db] error: column "nan" does not exist
+    at Connection.parseE (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:614:13)
+    at Connection.parseMessage (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:413:19)
+    at Socket.<anonymous> (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:129:22)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17) 
+| INFO | 12 Jan 21:46:11.81 : sql.js : 44 - [db] returned 3 rows | SELECT * FROM persons WHERE family_id = 1 
+| INFO | 12 Jan 21:47:15.24 : sql.js : 40 - [db] SELECT * FROM persons WHERE family_id = NaN  
+| INFO | 12 Jan 21:47:15.24 : sql.js : 41 - [db] error: column "nan" does not exist
+    at Connection.parseE (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:614:13)
+    at Connection.parseMessage (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:413:19)
+    at Socket.<anonymous> (/home/ketan/Desktop/ketan-backend/node_modules/pg/lib/connection.js:129:22)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17) 
+| INFO | 12 Jan 21:47:19.96 : sql.js : 44 - [db] returned 3 rows | SELECT * FROM persons WHERE family_id = 1 
+| INFO | 12 Jan 21:53:31.22 : sql.js : 44 - [db] returned 0 rows | SELECT * FROM family_table WHERE city_id = 79 
+| INFO | 12 Jan 21:54:28.70 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 12 Jan 21:54:34.34 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 12 Jan 21:54:34.35 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 12 Jan 21:54:39.07 : sql.js : 44 - [db] returned 2 rows | SELECT * FROM family_table WHERE city_id = 7 
+| INFO | 12 Jan 21:54:42.20 : sql.js : 44 - [db] returned 3 rows | SELECT * FROM persons WHERE family_id = 1 
+| INFO | 12 Jan 22:04:39.22 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 12 Jan 22:04:39.72 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 12 Jan 22:04:39.74 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 12 Jan 22:04:42.34 : sql.js : 44 - [db] returned 2 rows | SELECT * FROM family_table WHERE city_id = 7 
+| INFO | 12 Jan 22:04:43.73 : sql.js : 44 - [db] returned 3 rows | SELECT * FROM persons WHERE family_id = 1 
+| INFO | 12 Jan 22:05:34.15 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 12 Jan 22:05:34.59 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 12 Jan 22:05:34.60 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 12 Jan 22:05:36.74 : sql.js : 44 - [db] returned 2 rows | SELECT * FROM family_table WHERE city_id = 7 
+| INFO | 12 Jan 22:05:37.84 : sql.js : 44 - [db] returned 3 rows | SELECT * FROM persons WHERE family_id = 1 
+| INFO | 12 Jan 22:06:50.08 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 12 Jan 22:06:50.49 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 12 Jan 22:06:50.51 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 12 Jan 22:08:23.91 : sql.js : 44 - [db] returned 2 rows | SELECT * FROM family_table WHERE city_id = 7 
+| INFO | 12 Jan 22:08:25.01 : sql.js : 44 - [db] returned 3 rows | SELECT * FROM persons WHERE family_id = 1 
+| INFO | 12 Jan 22:17:01.11 : sql.js : 44 - [db] returned 5 rows | SELECT * FROM zone 
+| INFO | 12 Jan 22:17:01.85 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 12 Jan 22:17:01.86 : sql.js : 44 - [db] returned 20 rows | SELECT * FROM city WHERE zone_id = 1 
+| INFO | 12 Jan 22:17:06.17 : sql.js : 44 - [db] returned 2 rows | SELECT * FROM family_table WHERE city_id = 7 
+| INFO | 12 Jan 22:17:09.48 : sql.js : 44 - [db] returned 3 rows | SELECT * FROM persons WHERE family_id = 1 
